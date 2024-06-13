@@ -26,7 +26,7 @@ class BoggleBoard:
     #       BoggleBoard.game_board += random.choice(string.ascii_letters.upper())
     # print(BoggleBoard.game_board)
 
-    """this loop is trying to use the dice variable but does not work yet"""
+    """this loop uses the dice variable"""
     index_count = 0
     for dice_face in self.dice:
       letter = random.choice(dice_face)
